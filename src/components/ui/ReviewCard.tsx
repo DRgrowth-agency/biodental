@@ -58,7 +58,7 @@ export const ReviewCard = ({
     </div>
     {/* Avatar and name */}
     <div className="flex items-center gap-1 mt-auto">
-      {avatar.endsWith('.png') || avatar.endsWith('.jpg') || avatar.endsWith('.jpeg') ? (
+      {avatar.endsWith('.png') || avatar.endsWith('.jpg') || avatar.endsWith('.jpeg') || avatar.endsWith('.webp') ? (
         <img
           src={avatar}
           alt={`${name} patient témoignage BioDental Annaba`}

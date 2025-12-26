@@ -12,7 +12,7 @@ export const Footer = () => {
   const footerSections = [
     {
       title: "Services",
-      links: ["Orthodontie (ODF)", "Cosmetic", "Surgical"],
+      links: ["Préservation des dents", "Implants dentaires", "Prothèses dentaires", "Chirurgie orale"],
     },
     {
       title: "Liens",
@@ -127,15 +127,24 @@ export const Footer = () => {
                 </h3>
                 <ul className="flex flex-col gap-1 text-left">
                   <li className="text-[16px] text-[#0F1F0D] font-[500] tracking-[-0.8px]">
-                    Orthodontie
+                    Préservation des dents
                   </li>
                   <li className="text-[16px] text-[#0F1F0D] font-normal tracking-[-0.8px]">
-                    Cosmetic
+                    Implants dentaires
                   </li>
                   <li className="text-[16px] text-[#0F1F0D] font-normal tracking-[-0.8px]">
-                    Surgical
+                    Prothèses dentaires
+                  </li>
+                  <li className="text-[16px] text-[#0F1F0D] font-normal tracking-[-0.8px]">
+                    Chirurgie orale
                   </li>
                 </ul>
+                <Link
+                  href="/services"
+                  className="text-[16px] text-[#2266ff] font-medium tracking-[-0.8px] hover:underline mt-2"
+                >
+                  Autres services →
+                </Link>
               </div>
 
               {/* Social */}

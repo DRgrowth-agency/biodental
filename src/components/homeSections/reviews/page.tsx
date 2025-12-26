@@ -12,28 +12,28 @@ const reviews: Array<{
   platform: "google" | "instagram" | "facebook";
 }> = [
   {
-    avatar: "/reviews/aimen.png",
+    avatar: "/reviews/aimen.webp",
     name: "Amira badraoui",
     rating: 5,
     text: "Un accueil chaleureux w khedma machallah",
     platform: "google",
   },
   {
-    avatar: "/reviews/amin.png",
+    avatar: "/reviews/amin.webp",
     name: "amine ghachi",
     rating: 5,
     text: "Bravos docteur Ya3tik Saha 🔥👌😷",
     platform: "instagram",
   },
   {
-    avatar: "/reviews/aimen.png",
+    avatar: "/reviews/aimen.webp",
     name: "Amira badraoui",
     rating: 5,
     text: "Vraiment un beau travail, vous êtes le meilleur",
     platform: "facebook",
   },
   {
-    avatar: "/reviews/image.png",
+    avatar: "/reviews/image.webp",
     name: "soukri houri",
     rating: 5,
     text: "Vraiment merci khedma mashallah",

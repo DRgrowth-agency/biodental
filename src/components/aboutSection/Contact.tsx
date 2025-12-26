@@ -55,12 +55,12 @@ const Contact = () => {
             </span>
             <div>
               <div className="text-[24px] font-medium text-[#243520] mb-1">
-                Working hours:
+                Horaires d'ouverture :
               </div>
               <div className="text-[18px] text-[#222]">
-                Saturday – Thursday
+                Samedi – Jeudi
                 <br />
-                9:00am to 6:00pm
+                9h00 à 18h00
               </div>
             </div>
           </div>

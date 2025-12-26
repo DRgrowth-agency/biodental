@@ -14,7 +14,7 @@ export const Services = () => {
       title: "Préservation dentaire",
       description:
         "Des traitements doux pour réparer et protéger vos dents naturelles.",
-      image: "..//image-3.png",
+      image: "..//image-3.webp",
       alt: "Préservation dentaire traitement soins dents naturelles BioDental Annaba",
       borderRadius: "rounded-[80px_8px_8px_8px]",
       imageRadius: "rounded-[80px_5px_0px_0px]",
@@ -22,8 +22,8 @@ export const Services = () => {
     {
       id: 2,
       title: "Implants dentaires",
-      description: "Permanent solutions to remplacer les dents manquantes.",
-      image: "..//image-4.png",
+      description: "Solutions permanentes pour remplacer les dents manquantes.",
+      image: "..//image-4.webp",
       alt: "Implants dentaires remplacement dents manquantes BioDental Annaba",
       borderRadius: "rounded-lg",
       imageRadius: "rounded-[5px_5px_0px_0px]",
@@ -33,7 +33,7 @@ export const Services = () => {
       title: "Prothèses dentaires",
       description:
         "Couronnes et bridges personnalisés : durabilité et esthétique naturelle.",
-      image: "..//image-5.png",
+      image: "..//image-5.webp",
       alt: "Prothèses dentaires couronnes bridges BioDental Annaba",
       borderRadius: "rounded-[8px_80px_8px_8px]",
       imageRadius: "rounded-[20px_80px_20px_20px]",
@@ -46,7 +46,7 @@ export const Services = () => {
       id: 1,
       title: "Chirurgie orale et",
       description: "Soins spécialisés pour problèmes dentaires complexes.",
-      image: "..//image.png",
+      image: "..//image.webp",
       alt: "Chirurgie orale soins spécialisés problèmes dentaires BioDental Annaba",
       borderRadius: "rounded-[8px_8px_8px_80px]",
       imageRadius: "rounded-[20px]",
@@ -55,7 +55,7 @@ export const Services = () => {
       id: 2,
       title: "Orthodontie (ODF)",
       description: "Alignez les dents et les mâchoires pour un sourire plus sain et plus confiant.",
-      image: "..//image-1.png",
+      image: "..//image-1.webp",
       alt: "Orthodontie alignement dents mâchoires traitement BioDental Annaba",
       borderRadius: "rounded-lg",
       imageRadius: "rounded-[20px]",
@@ -64,7 +64,7 @@ export const Services = () => {
       id: 3,
       title: "Dentisterie esthétique",
       description: "Améliorer l'apparence de vos dents pour un sourire rayonnant.",
-      image: "..//image-2.png",
+      image: "..//image-2.webp",
       alt: "Dentisterie esthétique amélioration sourire dents BioDental Annaba",
       borderRadius: "rounded-[8px_8px_80px_8px]",
       imageRadius: "rounded-[20px]",
@@ -129,7 +129,7 @@ export const Services = () => {
                 <div className="flex justify-end px-2">
                   <a className="flex  justify-center items-center text-[#243520] hover:#000 gap-1 font-playfair-important" href="/services">
                     <span className="text-[19px] tracking-[0.19px] leading-[26.6px] font-normal ">
-                      More
+                      En savoir plus
                     </span>
                     <ArrowIcon className="w-[18px]  mt-1 mr-2 " />
                   </a>
@@ -165,7 +165,7 @@ export const Services = () => {
                 <div className="flex justify-end px-2">
                   <a className="flex  justify-center items-center text-[#243520] hover:text-[#000]  gap-1 font-playfair-important " href="/services">
                     <span className="text-[19px] tracking-[0.19px] leading-[26.6px] font-normal ">
-                      More
+                      En savoir plus
                     </span>
                     <ArrowIcon className="w-[18px]  mt-1 mr-2 " />
                   </a>
