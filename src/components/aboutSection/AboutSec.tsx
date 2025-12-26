@@ -25,10 +25,13 @@ export const AboutSec = () => {
        transition={{ duration: 1.2, type: "spring" }}
        viewport={{ once: true, amount: 0.2 }}
       >
-        <div
-          className="relative w-full md:w-[358px] h-[440px] rounded-[1000px_1000px_8px_8px] bg-cover bg-center order-2 md:order-1"
-          style={{ backgroundImage: "url(..//image-7.png)" }}
-        />
+        <div className="relative w-full md:w-[358px] h-[440px] rounded-[1000px_1000px_8px_8px] overflow-hidden order-2 md:order-1">
+          <img
+            src="..//image-7.png"
+            alt="Dr Fetnaci Sofian dentiste cabinet BioDental Annaba"
+            className="w-full h-full object-cover rounded-[1000px_1000px_8px_8px]"
+          />
+        </div>
 
         <div className="flex flex-col w-full md:w-[592px] items-start gap-[34px] order-1 md:order-2">
           <div className="w-full ">

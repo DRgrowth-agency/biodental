@@ -69,7 +69,7 @@ const Contact = () => {
         <div className="flex-1 flex items-center justify-center w-full min-w-[320px]">
           <div className="rounded-[24px] overflow-hidden shadow-lg border border-[#e5e5e5] w-full h-[320px]  md:h-[340px] bg-[#f7f7f5]">
             <iframe
-              title="Google Map"
+              title="Localisation cabinet dentaire BioDental Annaba carte Google Maps"
               src="https://www.google.com/maps?q=Cabinet+Dentaire+BioDental+Dr.Fetnaci,+36.8887816,7.7332525&hl=en-GB&z=15&output=embed"
               width="100%"
               height="100%"
