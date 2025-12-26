@@ -57,7 +57,7 @@ export const Hero = () => {
               />
             </span>
           </h1>
-          <h1 className="h-[80px] relative flex  text-[70px]  ">
+          <h2 className="h-[80px] relative flex  text-[70px]  ">
             <span className=" absolute top-0 -left- mr-1 rotate-[-32deg]">
               <img
                 src="/leaf.avif"
@@ -84,8 +84,8 @@ export const Hero = () => {
                 className="inline h-[70px] w-[180px] rounded-full object-cover align-middle"
               />
             </span>
-          </h1>
-          <h1 className="h-[80px]  text-[70px] ">
+          </h2>
+          <h2 className="h-[80px]  text-[70px] ">
             <span className="inline-block align-center mx-1 mt-2">
               <img
                 src="/hero3.avif"
@@ -105,7 +105,7 @@ export const Hero = () => {
             >
               Priorité au Patient.
             </span>
-          </h1>
+          </h2>
         </div>
         <div className="flex justify-center  pt-8 w-full">
           <span className="inline-block  align-end mx-1 ml-[50%] rotate-[-17deg]">

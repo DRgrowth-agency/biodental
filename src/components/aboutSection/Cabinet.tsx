@@ -14,9 +14,9 @@ const Cabinet = () => {
          transition={{ duration: 1.2, type: "spring" }}
          viewport={{ once: true, amount: 0.2 }}
         >
-          <h1 className="font-playfair-important  font-bold text-[#2b3029] text-[34px] md:text-[50px] md:tracking-[-0.8px] leading-tight">
+          <h2 className="font-playfair-important  font-bold text-[#2b3029] text-[34px] md:text-[50px] md:tracking-[-0.8px] leading-tight">
             Où le confort rencontre l'art.
-          </h1>
+          </h2>
         </motion.div>
         {/* Cabinet images */}
        <CabinetImages/>

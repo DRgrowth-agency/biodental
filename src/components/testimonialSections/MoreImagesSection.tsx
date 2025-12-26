@@ -17,9 +17,9 @@ const MoreImagesSection = () => {
     <section className="w-full py-[24px] px-[34px] md:p-[20px] md:py-20 bg-[#9aae92]">
       <div className="max-w-[1100px] mx-auto">
         <div className="w-full text-center ">
-          <h1 className="font-playfair-important  font-bold text-[#2b3029] text-[34px] md:text-[2.6rem] md:tracking-[-0.8px] leading-tight">
+          <h2 className="font-playfair-important  font-bold text-[#2b3029] text-[34px] md:text-[2.6rem] md:tracking-[-0.8px] leading-tight">
             Et plus…
-          </h1>
+          </h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 grid-rows-1 w-full gap-[50px] py-10">
           {/* Left: Video */}

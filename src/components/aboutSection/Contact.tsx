@@ -1,15 +1,15 @@
 import React from "react";
 import { IoMdStopwatch, IoMdMail } from "react-icons/io";
 import { MdLocalPhone as PhoneIcon } from "react-icons/md";
-import { FaMapMarkerAlt as PlaceIcon } from "react-icons/fa";
+
 
 const Contact = () => {
   return (
     <section className="w-full  bg-[#fff] flex flex-col items-center justify-center py-20 px-4">
       {/* Title */}
-      <h1 className="font-playfair-important  text-[34px] md:text-[50px] text-[#243520] font-bold mb-10 text-center">
+      <h2 className="font-playfair-important  text-[34px] md:text-[50px] text-[#243520] font-bold mb-10 text-center">
         Contact
-      </h1>
+      </h2>
       <div className="flex flex-col md:flex-row w-full max-w-[1100px] gap-10 md:gap-20 items-start justify-center px-4">
         {/* Left: Contact Info */}
         <div className="flex-1 flex flex-col gap-6 min-w-[300px] max-w-[400px] mt-10 mx-auto md:mx-0">

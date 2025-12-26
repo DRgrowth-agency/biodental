@@ -12,9 +12,9 @@ export const CTA = () => {
     <section className="w-full py-[60px] md:py-20 bg-[#9aae92] px-8 md:px-0 lg:px-0">
       <Card className="max-w-4xl mx-auto  border-none shadow-none">
         <CardContent className="flex flex-col items-center justify-center space-y-6 text-center p-0">
-          <h1 className="text-[34px] md:text-[53px]  font-[1000] text-[#2b3029] tracking-[-0.80px] leading-[55px] font-playfair-important pb-1">
+          <h2 className="text-[34px] md:text-[53px]  font-[1000] text-[#2b3029] tracking-[-0.80px] leading-[55px] font-playfair-important pb-1">
             Prêt à transformer votre sourire?
-          </h1>
+          </h2>
           <p className="text-[22px]  font-normal text-white ">
             Voir les rendez-vous disponibles et profitez de la dentisterie bien
             faite.

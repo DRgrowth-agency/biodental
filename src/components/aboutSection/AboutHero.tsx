@@ -55,7 +55,7 @@ const AboutHero = () => {
         }
       >
         <div className="py-10">
-          <p className="text-[27px] md:text-[40px] text-[#3A4B35] indent-5 ">
+          <h1 className="text-[27px] md:text-[40px] text-[#3A4B35] indent-5 ">
             <span className="font-medium">Chez</span>
             <span className="text-[34px] md:text-[55px] italic font-bold font-playfair-important  pl-1 leading-1">
               BioDental
@@ -65,7 +65,7 @@ const AboutHero = () => {
               d'air frais. Ces principes reflètent notre calme assurance, notre
               expertise pointue et notre dévouement au bien-être des patients.
             </span>
-          </p>
+          </h1>
           <div
             className="relative flex flex-col items-center p-1"
             onMouseLeave={() => setShowPopup(false)}
