@@ -84,8 +84,8 @@ const GallerySection = () => (
           style={{ height: "180px" }}
         >
           <BeforeAfterSlider
-            firstImage={{ imageUrl: pair.before, alt: "Avant" }}
-            secondImage={{ imageUrl: pair.after, alt: "Après" }}
+            firstImage={{ imageUrl: pair.before, alt: `Avant traitement soins dentaires BioDental Annaba` }}
+            secondImage={{ imageUrl: pair.after, alt: `Après traitement résultat soins dentaires BioDental Annaba` }}
             className="w-full h-full custom-delimiter-icon"
             delimiterIconStyles={{
               width: 56,

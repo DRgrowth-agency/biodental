@@ -32,7 +32,7 @@ const initialImages = [
   {
     id: 1,
     src: "/TESI-PAGE/t-hero-1.avif",
-    alt: "Smile 1",
+    alt: "Sourire patient témoignage résultat soins dentaires BioDental Annaba",
     style: "z-30 left-1/2 -translate-x-1/2 top-0 rotate-[15deg] shadow-2xl",
     width: 180,
     height: 180,
@@ -40,7 +40,7 @@ const initialImages = [
   {
     id: 2,
     src: "/TESI-PAGE/t-hero-2.avif",
-    alt: "Smile 2",
+    alt: "Sourire patient transformation soins dentaires BioDental Annaba",
     style: "z-20 left-[10%] top-[120px] rotate-[-12deg] shadow-xl",
     width: 170,
     height: 170,
@@ -48,7 +48,7 @@ const initialImages = [
   {
     id: 3,
     src: "/TESI-PAGE/t-hero-3.avif",
-    alt: "Smile 3",
+    alt: "Sourire patient résultat traitement dentaire BioDental Annaba",
     style: "z-10 left-[55%] top-[150px] rotate-[8deg] shadow-lg",
     width: 170,
     height: 170,
@@ -106,7 +106,7 @@ export default function TestimonialHeroSection() {
           {/* Top image (child) */}
           <motion.img
             src="/TESI-PAGE/t-hero-1.png"
-            alt="Smile 1"
+            alt="Sourire patient témoignage résultat soins dentaires BioDental Annaba"
             width={200}
             height={236}
             className="absolute w-[205px] xl:w-[190px] h-[160px] xl:h-[236px] rounded-[32px] z-30 left-1/2 top-6 -translate-x-1/2 rotate-[-13deg] shadow-2xl object-cover cursor-grab"
@@ -120,7 +120,7 @@ export default function TestimonialHeroSection() {
           {/* Bottom left image (teeth) */}
           <motion.img
             src="/TESI-PAGE/t-hero-2.png"
-            alt="Smile 2"
+            alt="Sourire patient transformation soins dentaires BioDental Annaba"
             width={300}
             height={140}
             className="absolute w-[230px] xl:w-[295px] h-[100px] xl:h-[140px] z-20 left-[-10px] xl:left-[40px] bottom-[48px] xl:bottom-4 rotate-[304deg] xl:rotate-[-30deg] rounded-t-[50px] rounded-br-[50px] shadow-xl object-cover cursor-grab"
@@ -134,7 +134,7 @@ export default function TestimonialHeroSection() {
           {/* Bottom right image (braces) */}
           <motion.img
             src="/TESI-PAGE/t-hero-3.png"
-            alt="Smile 3"
+            alt="Sourire patient résultat traitement dentaire BioDental Annaba"
             width={260}
             height={140}
             className="absolute w-[200px] xl:w-[260px]  h-[90px] xl:h-[140px] z-10 right-0 bottom-[49px] xl:bottom-7 rotate-[25deg] xl:rotate-[25deg] rounded-tr-[50px] rounded-bl-[50px] shadow-xl object-cover cursor-grab"

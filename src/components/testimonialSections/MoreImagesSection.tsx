@@ -43,7 +43,7 @@ const MoreImagesSection = () => {
           <div className="w-full md:col-start-3 h-[420px] rounded-[32px] overflow-hidden bg-[#F7F7F5]/10 shadow-md">
             <Image
               src="/TESI-PAGE/t-hero-5.png"
-              alt="Top right hero"
+              alt="Sourire patient témoignage résultat soins dentaires BioDental Annaba"
               width={600}
               height={270}
               className="object-cover w-full h-full"
@@ -55,7 +55,7 @@ const MoreImagesSection = () => {
           <div className="w-full h-[630px] md:row-span-2 rounded-[32px] overflow-hidden bg-[#F7F7F5]/10 shadow-md">
             <Image
               src="/TESI-PAGE/t-hero-1.png"
-              alt="Center hero"
+              alt="Sourire patient transformation soins dentaires BioDental Annaba"
               width={600}
               height={270}
               className="object-cover w-full h-full"
@@ -65,7 +65,7 @@ const MoreImagesSection = () => {
           <div className="w-full md:col-span-2 h-fit  md:h-[300px] rounded-[32px] overflow-hidden bg-[#F7F7F5]/10 shadow-md">
             <Image
               src="/TESI-PAGE/t-hero-4.png"
-              alt="Bottom left hero"
+              alt="Sourire patient résultat traitement dentaire BioDental Annaba"
               width={600}
               height={270}
               className="object-cover w-full h-full"
