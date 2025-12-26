@@ -44,7 +44,7 @@ export const Nav = () => {
           <CardContent className="p-0">
             <div className=" w-full h-16 rounded-[50px] flex items-center justify-between px-6">
               <a href="/">
-                <img src="./logo.png" alt="BioDental" className=" w-[180px]" />
+                <img src="./logo.png" alt="BioDental logo cabinet dentaire Annaba" className=" w-[180px]" />
               </a>
               <div className="hidden md:flex gap-[20px] ">
                 {navItems.map((item, index) => (
@@ -92,7 +92,7 @@ export const Nav = () => {
           <div className="flex items-center justify-between  max-h-[100px] px-2">
             <div className="flex items-center gap-2 max-w-[180px]">
               <a href="/">
-                <img src="./logo.webp" alt="BioDental" />
+                <img src="./logo.webp" alt="BioDental logo cabinet dentaire Annaba" />
               </a>
             </div>
             <button

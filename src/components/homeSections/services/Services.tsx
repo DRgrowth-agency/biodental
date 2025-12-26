@@ -15,6 +15,7 @@ export const Services = () => {
       description:
         "Des traitements doux pour réparer et protéger vos dents naturelles.",
       image: "..//image-3.png",
+      alt: "Préservation dentaire traitement soins dents naturelles BioDental Annaba",
       borderRadius: "rounded-[80px_8px_8px_8px]",
       imageRadius: "rounded-[80px_5px_0px_0px]",
     },
@@ -23,6 +24,7 @@ export const Services = () => {
       title: "Implants dentaires",
       description: "Permanent solutions to remplacer les dents manquantes.",
       image: "..//image-4.png",
+      alt: "Implants dentaires remplacement dents manquantes BioDental Annaba",
       borderRadius: "rounded-lg",
       imageRadius: "rounded-[5px_5px_0px_0px]",
     },
@@ -32,6 +34,7 @@ export const Services = () => {
       description:
         "Couronnes et bridges personnalisés : durabilité et esthétique naturelle.",
       image: "..//image-5.png",
+      alt: "Prothèses dentaires couronnes bridges BioDental Annaba",
       borderRadius: "rounded-[8px_80px_8px_8px]",
       imageRadius: "rounded-[20px_80px_20px_20px]",
     },
@@ -44,6 +47,7 @@ export const Services = () => {
       title: "Chirurgie orale et",
       description: "Soins spécialisés pour problèmes dentaires complexes.",
       image: "..//image.png",
+      alt: "Chirurgie orale soins spécialisés problèmes dentaires BioDental Annaba",
       borderRadius: "rounded-[8px_8px_8px_80px]",
       imageRadius: "rounded-[20px]",
     },
@@ -52,6 +56,7 @@ export const Services = () => {
       title: "Orthodontie (ODF)",
       description: "Alignez les dents et les mâchoires pour un sourire plus sain et plus confiant.",
       image: "..//image-1.png",
+      alt: "Orthodontie alignement dents mâchoires traitement BioDental Annaba",
       borderRadius: "rounded-lg",
       imageRadius: "rounded-[20px]",
     },
@@ -60,6 +65,7 @@ export const Services = () => {
       title: "Dentisterie esthétique",
       description: "Améliorer l'apparence de vos dents pour un sourire rayonnant.",
       image: "..//image-2.png",
+      alt: "Dentisterie esthétique amélioration sourire dents BioDental Annaba",
       borderRadius: "rounded-[8px_8px_80px_8px]",
       imageRadius: "rounded-[20px]",
     },
@@ -76,9 +82,11 @@ export const Services = () => {
               <br />
               de votre sourire?
             </div>
-            <div
-              className="w-[30px] md:w-[57px] h-[30px] md:h-[57px] absolute right-[33px] md:right-[-40px] -top-0 md:top-[-10px] rotate-y-180 bg-cover"
-              style={{ backgroundImage: "url(..//image-6.png)" }}
+            <img
+              src="..//image-6.png"
+              alt=""
+              className="w-[30px] md:w-[57px] h-[30px] md:h-[57px] absolute right-[33px] md:right-[-40px] -top-0 md:top-[-10px] rotate-y-180 object-cover"
+              aria-hidden="true"
             />
           </div>
         </div>
@@ -90,9 +98,10 @@ export const Services = () => {
               key={service.id}
               className={`w-[350px] md:w-[293px] h-[450px] border-4 border-solid border-[#f7f7f5] ${service.borderRadius} overflow-hidden `}
             >
-              <div
-                className={`w-[350px] md:w-[269px] h-[250px] mx-2 mt-2 bg-cover bg-center ${service.imageRadius}`}
-                style={{ backgroundImage: `url(${service.image})` }}
+              <img
+                src={service.image}
+                alt={service.alt || `${service.title} service BioDental Annaba`}
+                className={`w-[350px] md:w-[269px] h-[250px] mx-2 mt-2 object-cover ${service.imageRadius}`}
               />
               <CardContent className="p-3  px-[12px]">
                 <div className="mb-3">
@@ -137,9 +146,10 @@ export const Services = () => {
               key={service.id}
               className={`w-[350px] md:w-[293px] h-[450px] border-4 border-solid border-[#f7f7f5] ${service.borderRadius} overflow-hidden`}
             >
-              <div
-                className={`w-[350px] md:w-[269px] h-[250px] mx-2 mt-2 bg-cover bg-center ${service.imageRadius}`}
-                style={{ backgroundImage: `url(${service.image})` }}
+              <img
+                src={service.image}
+                alt={service.alt || `${service.title} service BioDental Annaba`}
+                className={`w-[350px] md:w-[269px] h-[250px] mx-2 mt-2 object-cover ${service.imageRadius}`}
               />
               <CardContent className="p-3 px-[12px] ">
                 <div className="mb-3">

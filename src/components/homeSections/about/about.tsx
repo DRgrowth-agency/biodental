@@ -29,7 +29,7 @@ export const About = () => {
         <div className="relative w-full md:w-[358px] mt-[20px]  min-h-[440px] item-end h-full rounded-[1000px_1000px_8px_8px] bg-cover  order-2 md:order-1">
           <Image
             src={"/image-7.png"}
-            alt="about"
+            alt="Dr Fetnaci Sofian dentiste cabinet BioDental Annaba"
             fill
             className="object-cover rounded-[1000px_1000px_8px_8px]   "
           />

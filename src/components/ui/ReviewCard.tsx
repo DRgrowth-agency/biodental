@@ -21,19 +21,19 @@ export const ReviewCard = ({
       {platform === "google" ? (
         <img
           src="/icons/google-maps.avif"
-          alt="google maps"
+          alt="Avis Google Maps BioDental Annaba"
           className="w-[35px] h-[35px]"
         />
       ) : platform === "instagram" ? (
         <img
           src="/icons/instagram.avif"
-          alt="instagram"
+          alt="Avis Instagram BioDental Annaba"
           className="w-[35px] h-[35px]"
         />
       ) : (
         <img
           src="/icons/facebook.avif"
-          alt="facebook"
+          alt="Avis Facebook BioDental Annaba"
           className="w-[35px] h-[35px]"
         />
       )}
@@ -61,7 +61,7 @@ export const ReviewCard = ({
       {avatar.endsWith('.png') || avatar.endsWith('.jpg') || avatar.endsWith('.jpeg') ? (
         <img
           src={avatar}
-          alt={name}
+          alt={`${name} patient témoignage BioDental Annaba`}
           className="w-[37px] h-[37px] rounded-full object-cover bg-[#e15b64]"
         />
       ) : (

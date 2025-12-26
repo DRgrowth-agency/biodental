@@ -33,7 +33,7 @@ export const Hero = () => {
             <span className="inline-block align-middle ">
               <img
                 src="/hero1.avif"
-                alt="hero1"
+                alt="Sourire restauré patient soins dentaires BioDental Annaba"
                 className="inline h-[70px] w-[130px] rounded-full object-cover align-baseline"
               />
             </span>
@@ -52,8 +52,9 @@ export const Hero = () => {
             <span className=" absolute top-3 -right-11">
               <img
                 src="/nedjm.avif"
-                alt="sparkle"
+                alt=""
                 className="inline h-[46px] w-[48px] align-top"
+                aria-hidden="true"
               />
             </span>
           </h1>
@@ -61,8 +62,9 @@ export const Hero = () => {
             <span className=" absolute top-0 -left- mr-1 rotate-[-32deg]">
               <img
                 src="/leaf.avif"
-                alt="leaf"
+                alt=""
                 className="inline h-[38px] w-[48px] align-top"
+                aria-hidden="true"
               />
             </span>
             <span
@@ -80,7 +82,7 @@ export const Hero = () => {
             <span className="inline-block align-middle mx-1">
               <img
                 src="/hero2.avif"
-                alt="hero2"
+                alt="Sourire naturel patient dentisterie BioDental Annaba"
                 className="inline h-[70px] w-[180px] rounded-full object-cover align-middle"
               />
             </span>
@@ -89,7 +91,7 @@ export const Hero = () => {
             <span className="inline-block align-center mx-1 mt-2">
               <img
                 src="/hero3.avif"
-                alt="hero3"
+                alt="Sourire confiant patient soins dentaires BioDental Annaba"
                 className=" h-[70px] w-[150px] rounded-full object-cover align-middle"
               />
             </span>
@@ -111,8 +113,9 @@ export const Hero = () => {
           <span className="inline-block  align-end mx-1 ml-[50%] rotate-[-17deg]">
             <img
               src="/arrow.avif"
-              alt="arrow"
+              alt=""
               className="inline h-[73px] w-[74px] align-middle"
+              aria-hidden="true"
             />
           </span>
         </div>
@@ -158,7 +161,7 @@ export const Hero = () => {
           <span className="inline-block align-middle mx-1">
             <img
               src="/hero1.avif"
-              alt="hero1"
+              alt="Sourire restauré patient soins dentaires BioDental Annaba"
               className="inline h-[46px] w-[86px] rounded-full object-cover align-baseline"
               style={{ marginBottom: "-8px" }}
             />
@@ -169,7 +172,7 @@ export const Hero = () => {
           <span className="inline-block align-middle  ">
             <img
               src="/hero2.avif"
-              alt="hero2"
+              alt="Sourire naturel patient dentisterie BioDental Annaba"
               className="inline h-[47px] w-[128px] rounded-full object-cover align-baseline  "
               style={{ marginBottom: "-8px" }}
             />
@@ -189,8 +192,9 @@ export const Hero = () => {
           <span className="inline-block align-top ml-1 -mt-3 absolute top-[11px] right-[-9px]">
             <img
               src="/leaf.avif"
-              alt="leaf"
+              alt=""
               className="inline h-[24px] w-[24px] align-top rotate-[35deg]  "
+              aria-hidden="true"
             />
           </span>
         </div>
@@ -213,8 +217,9 @@ export const Hero = () => {
           <span className="inline-block align-middle -mr-2">
             <img
               src="/nedjm.avif"
-              alt="sparkle"
+              alt=""
               className="inline h-[21px] w-[25px] align-text-top "
+              aria-hidden="true"
             />
           </span>
           <span
@@ -231,7 +236,7 @@ export const Hero = () => {
           <span className="inline-block align-middle mx-1">
             <img
               src="/hero3.avif"
-              alt="hero3"
+              alt="Sourire confiant patient soins dentaires BioDental Annaba"
               className="inline h-[47px] w-[115px] rounded-full object-cover align-baseline shadow-md "
               style={{ marginBottom: "-8px" }}
             />
@@ -242,8 +247,9 @@ export const Hero = () => {
           <span className="inline-block align-end mx-1  rotate-[-17deg]">
             <img
               src="/arrow.avif"
-              alt="arrow"
+              alt=""
               className="inline h-[50px] w-[50px] align-middle"
+              aria-hidden="true"
             />
           </span>
         </div>
