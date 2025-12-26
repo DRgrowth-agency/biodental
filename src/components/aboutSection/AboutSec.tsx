@@ -27,7 +27,7 @@ export const AboutSec = () => {
       >
         <div className="relative w-full md:w-[358px] h-[440px] rounded-[1000px_1000px_8px_8px] overflow-hidden order-2 md:order-1">
           <img
-            src="..//image-7.png"
+            src="..//image-7.webp"
             alt="Dr Fetnaci Sofian dentiste cabinet BioDental Annaba"
             className="w-full h-full object-cover rounded-[1000px_1000px_8px_8px]"
           />

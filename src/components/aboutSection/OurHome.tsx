@@ -20,7 +20,7 @@ const OurHome = () => {
         <div className="text-center md:text-left flex-1 flex justify-end items-start order-1 md:order-2">
           <div className="w-full md:w-[480px] h-[380px] rounded-[32px] overflow-hidden">
             <Image
-              src="/ourhome/home1.png"
+              src="/ourhome/home1.webp"
               alt="Vision cabinet dentaire équipement moderne BioDental Annaba"
               width={480}
               height={340}
@@ -35,7 +35,7 @@ const OurHome = () => {
         <div className="flex-1 flex justify-end items-start order-2 md:order-1">
           <div className="w-[350px] md:w-[480px] h-[380px] md:h-[380px] rounded-[32px] overflow-hidden">
             <Image
-              src="/ourhome/home2.png"
+              src="/ourhome/home2.webp"
               alt="Mission cabinet dentaire soins patients BioDental Annaba"
               width={480}
               height={340}
