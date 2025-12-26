@@ -19,7 +19,7 @@ const ServicesSec = () => {
         <div className="flex-1 flex justify-center items-center  min-w-full md:min-w-[320px] ">
           <Image
             src="/services/services1.png"
-            alt="Préservation des dents"
+            alt="Préservation dentaire traitement soins dents naturelles BioDental Annaba"
             width={600}
             height={400}
             className="rounded-3xl object-cover w-full h-[250px] md:h-[370px] max-w-full"
@@ -61,7 +61,7 @@ const ServicesSec = () => {
         <div className="flex-1 flex justify-center items-center min-w-full md:min-w-[320px]">
           <Image
             src="/services/services2.png"
-            alt="Préservation des dents"
+            alt="Implants dentaires remplacement dents manquantes BioDental Annaba"
             width={600}
             height={400}
             className="rounded-3xl object-cover w-full h-[250px] md:h-[370px] max-w-full"
@@ -73,7 +73,7 @@ const ServicesSec = () => {
         <div className="flex-1 flex justify-center items-center min-w-full md:min-w-[320px]">
           <Image
             src="/services/services3.png"
-            alt="Préservation des dents"
+            alt="Prothèses dentaires fixes couronnes bridges BioDental Annaba"
             width={600}
             height={400}
             className="rounded-3xl object-cover w-full h-[250px] md:h-[370px] max-w-full"
@@ -118,7 +118,7 @@ const ServicesSec = () => {
         <div className="flex-1 flex justify-center items-center min-w-full md:min-w-[320px]">
           <Image
             src="/services/services4.png"
-            alt="Préservation des dents"
+            alt="Chirurgie orale pathologie soins spécialisés BioDental Annaba"
             width={600}
             height={400}
             className="rounded-3xl object-cover w-full h-[250px] md:h-[370px] max-w-full"
@@ -130,7 +130,7 @@ const ServicesSec = () => {
         <div className="flex-1 flex justify-center items-center min-w-full md:min-w-[320px]">
           <Image
             src="/services/services5.png"
-            alt="Préservation des dents"
+            alt="Orthodontie ODF alignement dents mâchoires BioDental Annaba"
             width={600}
             height={400}
             className="rounded-3xl object-cover w-full h-[250px] md:h-[370px] max-w-full"
@@ -169,7 +169,7 @@ const ServicesSec = () => {
         <div className="flex-1 flex justify-center items-center min-w-full md:min-w-[320px]">
           <Image
             src="/services/services6.png"
-            alt="Préservation des dents"
+            alt="Dentisterie esthétique blanchiment facettes sourire BioDental Annaba"
             width={600}
             height={400}
             className="rounded-3xl object-cover w-full h-[250px] md:h-[370px] max-w-full"
