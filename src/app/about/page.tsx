@@ -8,7 +8,7 @@ import Cabinet from './../../components/aboutSection/Cabinet';
 import OurHome from './../../components/aboutSection/OurHome';
 import Contact from "@/components/aboutSection/Contact";
 import SendMessage from "@/components/aboutSection/SendMessage";
-
+import { Metadata } from "next";
 export default function AboutPage() {
   return (
     <div className=" w-full bg-white ">
@@ -24,3 +24,11 @@ export default function AboutPage() {
     </div>
   );
 } 
+export const metadata : Metadata = {
+  title: "À propos du cabinet BioDental – Dentiste à Annaba",
+  description:
+    "Découvrez BioDental et le Dr. Fetnaci Sofian, dentiste à Annaba. Une approche humaine et naturelle pour des soins durables.",
+  alternates: {
+    canonical: "https://biodental-dr-fetnaci.com/about"
+  }
+}

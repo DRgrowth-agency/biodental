@@ -9,12 +9,14 @@ import { Hero } from "../components/homeSections/hero/hero";
 import { Reviews } from "@/components/homeSections/reviews/page";
 import dynamic from "next/dynamic";
 import GallerySectionClient from "../components/GallerySectionClient";
-
+import { Metadata } from "next";
 const GallerySection = dynamic(
   () => import("../components/testimonialSections/GallerySection")
 );
 
+
 export default function Page() {
+
   return (
     <div className="w-full bg-[#F7F7F5]">
       <Nav />
@@ -38,3 +40,12 @@ export default function Page() {
     </div>
   );
 }
+export const metadata : Metadata = {
+  title: "Dentiste à Annaba – Dentisterie Naturelle & Soins Doux | BioDental",
+  description:
+    "Cabinet dentaire BioDental à Annaba. Soins dentaires naturels, implants, orthodontie et prothèses. Priorité au patient.",
+  alternates: {
+    canonical:"https://biodental-dr-fetnaci.com"
+  }
+}
+

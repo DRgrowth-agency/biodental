@@ -10,9 +10,7 @@ import {
   MoreImagesSection,
 } from "../../components/testimonialSections";
 import { CTA } from "../../components/homeSections/CTA/CTA";
-import { PhonePopup } from "./../../components/ui/nav";
-let showPhone = false;
-
+import { Metadata } from "next";
 export default function TestimonialsPage() {
   return (
     <div className="relative w-full bg-[#F7F7F5]">
@@ -25,4 +23,12 @@ export default function TestimonialsPage() {
       <Footer />
     </div>
   );
+}
+export const metadata : Metadata = {
+  title: "Avis Patients & Résultats – Dentiste à Annaba | BioDental",
+  description:
+    "Découvrez les avis de patients et les résultats avant/après des soins dentaires réalisés chez BioDental à Annaba.",
+  alternates: {
+    canonical: "https://biodental-dr-fetnaci.com/testimonials"
+  }
 }
