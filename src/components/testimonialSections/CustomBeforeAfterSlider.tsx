@@ -5,6 +5,7 @@ import React, {
   useRef,
   useState,
 } from "react";
+import Image from "next/image";
 
 import "./CustomBeforeAfterSlider.scss";
 
@@ -82,15 +83,18 @@ function useReadyStatus(
 function useInit(
   updateContainerWidth: () => void,
   onMouseUpHandler: () => void,
-  firstImageRef: React.RefObject<HTMLImageElement>,
+  firstImageRef: React.RefObject<HTMLDivElement>,
   onImageLoad: OnImageLoadCallback
 ) {
   useEffect(() => {
     if (typeof window === 'undefined' || typeof document === 'undefined') return;
     updateContainerWidth();
-    // With ssr the first image may already be loaded. The second image only appears on the client.
-    if (firstImageRef.current && firstImageRef.current.complete) {
-      onImageLoad(0);
+    // Check if image inside the container is already loaded
+    if (firstImageRef.current) {
+      const img = firstImageRef.current.querySelector('img');
+      if (img && img.complete) {
+        onImageLoad(0);
+      }
     }
     document.addEventListener("click", onMouseUpHandler);
     return () => {
@@ -143,7 +147,7 @@ export default function BeforeAfterSlider({
   className && classNames.push(className);
 
   const refContainer = useRef<HTMLDivElement>(null) as React.RefObject<HTMLDivElement>;
-  const firstImageRef = useRef<HTMLImageElement>(null) as React.RefObject<HTMLImageElement>;
+  const firstImageRef = useRef<HTMLDivElement>(null) as React.RefObject<HTMLDivElement>;
 
   const [imagesWidth, setImagesWidth] = useState<number | null>(null);
   const [delimiterPercentPosition, setDelimiterPosition] = useState(
@@ -298,13 +302,16 @@ export default function BeforeAfterSlider({
       onTouchCancel={onMouseUpHandler}
       {...(!feelsOnlyTheDelimiter ? onClickHandlers : {})}
     >
-      <div className="before-after-slider__first-photo-container">
-        <img
+      <div className="before-after-slider__first-photo-container" ref={firstImageRef}>
+        <Image
           src={firstImage.imageUrl}
           onLoad={onFirstImageLoad}
           draggable={false}
-          alt={firstImage.alt}
-          ref={firstImageRef}
+          alt={firstImage.alt || ""}
+          width={imagesWidth || 400}
+          height={Math.round((imagesWidth || 400) * 0.75)}
+          className="w-full h-full object-cover"
+          loading="lazy"
         />
       </div>
       {Boolean(imagesWidth) && (
@@ -313,12 +320,16 @@ export default function BeforeAfterSlider({
             className="before-after-slider__second-photo-container"
             style={secondImgContainerStyle}
           >
-            <img
+            <Image
               style={imgStyles}
               src={secondImage.imageUrl}
               onLoad={() => onImageLoad(1)}
               draggable={false}
-              alt={secondImage.alt}
+              alt={secondImage.alt || ""}
+              width={imagesWidth}
+              height={Math.round(imagesWidth * 0.75)}
+              className="w-full h-full object-cover"
+              loading="lazy"
             />
           </div>
           <div

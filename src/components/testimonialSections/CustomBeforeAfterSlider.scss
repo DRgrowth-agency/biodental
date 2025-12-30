@@ -13,7 +13,9 @@
   top: 0;
   position: absolute;
 }
-.before-after-slider img {
+.before-after-slider img,
+.before-after-slider__first-photo-container img,
+.before-after-slider__second-photo-container img {
   max-width: none;
   width: 100%;
   height: 100%;

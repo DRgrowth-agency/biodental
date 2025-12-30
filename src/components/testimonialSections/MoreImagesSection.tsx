@@ -44,10 +44,10 @@ const MoreImagesSection = () => {
             <Image
               src="/TESI-PAGE/t-hero-5.webp"
               alt="Sourire patient témoignage résultat soins dentaires BioDental Annaba"
-              width={600}
-              height={270}
+              width={400}
+              height={420}
               className="object-cover w-full h-full"
-              priority
+              loading="lazy"
             />
           </div>
         </div>
@@ -56,10 +56,10 @@ const MoreImagesSection = () => {
             <Image
               src="/TESI-PAGE/t-hero-1.webp"
               alt="Sourire patient transformation soins dentaires BioDental Annaba"
-              width={600}
-              height={270}
+              width={400}
+              height={630}
               className="object-cover w-full h-full"
-              priority
+              loading="lazy"
             />
           </div>
           <div className="w-full md:col-span-2 h-fit  md:h-[300px] rounded-[32px] overflow-hidden bg-[#F7F7F5]/10 shadow-md">
@@ -67,9 +67,9 @@ const MoreImagesSection = () => {
               src="/TESI-PAGE/t-hero-4.webp"
               alt="Sourire patient résultat traitement dentaire BioDental Annaba"
               width={600}
-              height={270}
+              height={300}
               className="object-cover w-full h-full"
-              priority
+              loading="lazy"
             />
           </div>
           <div

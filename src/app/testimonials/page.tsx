@@ -15,11 +15,13 @@ export default function TestimonialsPage() {
   return (
     <div className="relative w-full bg-[#F7F7F5]">
       <Nav />
-      <TestimonialHeroSection />
-      <Reviews />
-      <GallerySection />
-      <MoreImagesSection />
-      <CTA />
+      <main>
+        <TestimonialHeroSection />
+        <Reviews />
+        <GallerySection />
+        <MoreImagesSection />
+        <CTA />
+      </main>
       <Footer />
     </div>
   );

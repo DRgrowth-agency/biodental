@@ -104,47 +104,65 @@ export default function TestimonialHeroSection() {
         {/* Right: Static Images */}
         <div className="relative flex-1 flex items-center justify-center w-full h-full min-h-[350px] md:w-[350px]   xl:min-h-[420px]">
           {/* Top image (child) */}
-          <motion.img
-            src="/TESI-PAGE/t-hero-1.webp"
-            alt="Sourire patient témoignage résultat soins dentaires BioDental Annaba"
-            width={200}
-            height={236}
-            className="absolute w-[205px] xl:w-[190px] h-[160px] xl:h-[236px] rounded-[32px] z-30 left-1/2 top-6 -translate-x-1/2 rotate-[-13deg] shadow-2xl object-cover cursor-grab"
+          <motion.div
+            className="absolute w-[205px] xl:w-[190px] h-[160px] xl:h-[236px] rounded-[32px] z-30 left-1/2 top-6 -translate-x-1/2 rotate-[-13deg] shadow-2xl cursor-grab overflow-hidden"
             style={{ boxShadow: "0 8px 32px 0 rgba(60, 80, 60, 0.18)" }}
             drag
             dragElastic={0.2}
             dragTransition={{ bounceStiffness: 300, bounceDamping: 20 }}
             whileTap={{ scale: 0.95, cursor: "grabbing" }}
             dragSnapToOrigin
-          />
+          >
+            <Image
+              src="/TESI-PAGE/t-hero-1.webp"
+              alt="Sourire patient témoignage résultat soins dentaires BioDental Annaba"
+              width={190}
+              height={236}
+              className="w-full h-full object-cover pointer-events-none"
+              priority
+              draggable={false}
+            />
+          </motion.div>
           {/* Bottom left image (teeth) */}
-          <motion.img
-            src="/TESI-PAGE/t-hero-2.webp"
-            alt="Sourire patient transformation soins dentaires BioDental Annaba"
-            width={300}
-            height={140}
-            className="absolute w-[230px] xl:w-[295px] h-[100px] xl:h-[140px] z-20 left-[-10px] xl:left-[40px] bottom-[48px] xl:bottom-4 rotate-[304deg] xl:rotate-[-30deg] rounded-t-[50px] rounded-br-[50px] shadow-xl object-cover cursor-grab"
+          <motion.div
+            className="absolute w-[230px] xl:w-[295px] h-[100px] xl:h-[140px] z-20 left-[-10px] xl:left-[40px] bottom-[48px] xl:bottom-4 rotate-[304deg] xl:rotate-[-30deg] rounded-t-[50px] rounded-br-[50px] shadow-xl cursor-grab overflow-hidden"
             style={{ boxShadow: "0 8px 32px 0 rgba(60, 80, 60, 0.18)" }}
             drag
             dragElastic={0.2}
             dragTransition={{ bounceStiffness: 300, bounceDamping: 20 }}
             whileTap={{ scale: 0.95, cursor: "grabbing" }}
             dragSnapToOrigin
-          />
+          >
+            <Image
+              src="/TESI-PAGE/t-hero-2.webp"
+              alt="Sourire patient transformation soins dentaires BioDental Annaba"
+              width={295}
+              height={140}
+              className="w-full h-full object-cover pointer-events-none"
+              priority
+              draggable={false}
+            />
+          </motion.div>
           {/* Bottom right image (braces) */}
-          <motion.img
-            src="/TESI-PAGE/t-hero-3.webp"
-            alt="Sourire patient résultat traitement dentaire BioDental Annaba"
-            width={260}
-            height={140}
-            className="absolute w-[200px] xl:w-[260px]  h-[90px] xl:h-[140px] z-10 right-0 bottom-[49px] xl:bottom-7 rotate-[25deg] xl:rotate-[25deg] rounded-tr-[50px] rounded-bl-[50px] shadow-xl object-cover cursor-grab"
+          <motion.div
+            className="absolute w-[200px] xl:w-[260px]  h-[90px] xl:h-[140px] z-10 right-0 bottom-[49px] xl:bottom-7 rotate-[25deg] xl:rotate-[25deg] rounded-tr-[50px] rounded-bl-[50px] shadow-xl cursor-grab overflow-hidden"
             style={{ boxShadow: "0 8px 32px 0 rgba(60, 80, 60, 0.18)" }}
             drag
             dragElastic={0.2}
             dragTransition={{ bounceStiffness: 300, bounceDamping: 20 }}
             whileTap={{ scale: 0.95, cursor: "grabbing" }}
             dragSnapToOrigin
-          />
+          >
+            <Image
+              src="/TESI-PAGE/t-hero-3.webp"
+              alt="Sourire patient résultat traitement dentaire BioDental Annaba"
+              width={260}
+              height={140}
+              className="w-full h-full object-cover pointer-events-none"
+              priority
+              draggable={false}
+            />
+          </motion.div>
         </div>
       </div>
     </section>

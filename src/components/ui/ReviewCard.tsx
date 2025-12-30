@@ -1,4 +1,5 @@
 import * as React from "react";
+import Image from "next/image";
 
 interface ReviewCardProps {
   avatar: string; // Initial or image URL
@@ -19,22 +20,31 @@ export const ReviewCard = ({
     {/* Platform icon, top right, slightly rotated */}
     <span className="absolute -top-4 -right-4 z-10 rotate-12">
       {platform === "google" ? (
-        <img
+        <Image
           src="/icons/google-maps.avif"
           alt="Avis Google Maps BioDental Annaba"
+          width={35}
+          height={35}
           className="w-[35px] h-[35px]"
+          loading="lazy"
         />
       ) : platform === "instagram" ? (
-        <img
+        <Image
           src="/icons/instagram.avif"
           alt="Avis Instagram BioDental Annaba"
+          width={35}
+          height={35}
           className="w-[35px] h-[35px]"
+          loading="lazy"
         />
       ) : (
-        <img
+        <Image
           src="/icons/facebook.avif"
           alt="Avis Facebook BioDental Annaba"
+          width={35}
+          height={35}
           className="w-[35px] h-[35px]"
+          loading="lazy"
         />
       )}
     </span>
@@ -59,10 +69,13 @@ export const ReviewCard = ({
     {/* Avatar and name */}
     <div className="flex items-center gap-1 mt-auto">
       {avatar.endsWith('.png') || avatar.endsWith('.jpg') || avatar.endsWith('.jpeg') || avatar.endsWith('.webp') ? (
-        <img
+        <Image
           src={avatar}
           alt={`${name} patient témoignage BioDental Annaba`}
+          width={37}
+          height={37}
           className="w-[37px] h-[37px] rounded-full object-cover bg-[#e15b64]"
+          loading="lazy"
         />
       ) : (
         <div className="w-[37px] h-[37px] rounded-full bg-[#e15b64] flex items-center justify-center text-lg font-bold text-white">

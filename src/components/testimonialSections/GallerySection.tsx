@@ -27,12 +27,12 @@ const beforeAfterPairs = [
     after: "/before-after/after 5.webp",
   },
   {
-    before: "/before-after/before 6.webp",
-    after: "/before-after/after 6.webp",
+    before: "/before-after/after 6.webp",
+    after: "/before-after/before 6.webp",
   },
   {
-    before: "/before-after/before 7.webp",
-    after: "/before-after/after 7.webp",
+    before: "/before-after/after 7.webp",
+    after: "/before-after/before 7.webp",
   },
 ];
 

@@ -154,15 +154,15 @@ export const Footer = () => {
                 </h3>
                 <div className="flex gap-4 mt-1">
                   {/* Facebook */}
-                  <a href="https://web.facebook.com/Biodental.Dr.Fetnaci.S/?_rdc=1&_rdr#" target="_blank" rel="noopener noreferrer">
+                  <a href="https://web.facebook.com/Biodental.Dr.Fetnaci.S/?_rdc=1&_rdr#" target="_blank" rel="noopener noreferrer" aria-label="Visiter notre page Facebook BioDental">
                     <FacebookLogo size={40} weight="duotone" color="#222" />
                   </a>
                   {/* Instagram */}
-                  <a href="https://www.instagram.com/dr.fetnaci_sofiane?igsh=MW12N3YwZmh5ajBqdA%3D%3D" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.instagram.com/dr.fetnaci_sofiane?igsh=MW12N3YwZmh5ajBqdA%3D%3D" target="_blank" rel="noopener noreferrer" aria-label="Visiter notre page Instagram BioDental">
                     <InstagramLogo size={40} weight="duotone" color="#222" />
                   </a>
                   {/* TikTok */}
-                  <a href="https://www.tiktok.com/@biodental_dr.fetnaci?_t=8W1xx07WI0E&_r=1" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.tiktok.com/@biodental_dr.fetnaci?_t=8W1xx07WI0E&_r=1" target="_blank" rel="noopener noreferrer" aria-label="Visiter notre page TikTok BioDental">
                     <TiktokLogo size={40} weight="duotone" color="#222" />
                   </a>
                 </div>
