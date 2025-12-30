@@ -44,8 +44,8 @@ export const Footer = () => {
 
   return (
     <>
-      <footer className="w-full  overflow-hidden bg-[#F7F7F5] border border-[#83967b] rounded-[8px] px-[30px] md:px-[80px]   py-9  mx-auto">
-        <div className="flex flex-col md:flex-row justify-between item-center gap-[32px] md:gap-0">
+      <footer className="w-full  overflow-hidden bg-[#F7F7F5] border border-[#83967b] rounded-[8px] px-[20px] md:px-[80px]   py-6 md:py-9  mx-auto">
+        <div className="flex flex-col md:flex-row justify-between item-center gap-6 md:gap-0">
           {/* Main CTA Button */}
           <div className="flex align-center justify-center order-last md:order-first">
             <div className="flex flex-col items-center justify-center md:hidden xl:flex  order-last md:order-first">
@@ -55,12 +55,13 @@ export const Footer = () => {
             </div>
           </div>
           {/* Footer Navigation Sections */}  
-          <div className="flex flex-col md:flex-row w-full   pl-3 justify-between md:justify-center md:gap-[65px] gap-8 order-first md:order-last">
-            {/* lines and contact section*/}
-            <div className="flex gap-2 justify-between w-[333px]">
+          <div className="flex flex-col md:flex-row w-full pl-0 md:pl-3 justify-between md:justify-center md:gap-12 gap-6 order-first md:order-last">
+            {/* Mobile: First row - Liens and Services side by side */}
+            {/* Desktop: Liens and Contact side by side */}
+            <div className="flex flex-row md:flex-row gap-4 md:gap-6 justify-between w-full md:w-[333px]">
               {/* lines */}
-              <div className="flex flex-col ">
-                <h3 className="text-[22px] text-[#51634B]  font-[500] mb-1 text-left">
+              <div className="flex flex-col flex-1 md:flex-none">
+                <h3 className="text-[22px] text-[#51634B] font-[500] mb-1 text-left">
                   Liens
                 </h3>
                 <ul className="flex flex-col gap-1 text-left">
@@ -98,12 +99,41 @@ export const Footer = () => {
                   </li>
                 </ul>
               </div>
-              {/* contact */}
-              <div className="flex flex-col">
-                <h3 className="text-[22px] text-[#51634B]  font-[500] mb-1 text-left">
+              {/* Services - Mobile: in same row as Liens, Desktop: separate */}
+              <div className="flex md:hidden flex-col flex-1">
+                <h3 className="text-[22px] text-[#51634B] font-[500]  text-left">
+                  Services
+                </h3>
+                <ul className="flex flex-col gap-1 text-left">
+                  <li className="text-[16px] text-[#0F1F0D] font-[500] tracking-[-0.8px]">
+                    Préservation des dents
+                  </li>
+                  <li className="text-[16px] text-[#0F1F0D] font-normal tracking-[-0.8px]">
+                    Implants dentaires
+                  </li>
+                  <li className="text-[16px] text-[#0F1F0D] font-normal tracking-[-0.8px]">
+                    Prothèses dentaires
+                  </li>
+                  <li className="text-[16px] text-[#0F1F0D] font-normal tracking-[-0.8px]">
+                    Chirurgie orale
+                  </li>
+                </ul>
+                <Link
+                  href="/services"
+                  className="text-[16px] text-[#2266ff] font-medium tracking-[-0.8px] hover:underline mt-2"
+                >
+                  Autres services →
+                </Link>
+              </div>
+              {/* contact - Desktop: next to liens */}
+              <div className="hidden md:flex flex-col">
+                <h3 className="text-[22px] text-[#51634B] font-[500] mb-1 text-left">
                   Contact
                 </h3>
                 <ul className="flex flex-col gap-1 text-left">
+                  <li className="text-[16px] text-[#0F1F0D] font-normal tracking-[-0.8px]">
+                    BioDental – Cabinet dentaire à Annaba
+                  </li>
                   <li className="text-[16px] text-[#0F1F0D] font-normal tracking-[-0.8px]">
                     +213 7 87 90 78 32
                   </li>
@@ -115,14 +145,27 @@ export const Footer = () => {
                       biodental.dr.fetnaci@gmail.com
                     </a>
                   </li>
+                  <li className="text-[16px] text-[#0F1F0D] font-normal tracking-[-0.8px]">
+                    Horaires : Sam–Jeu, 09h–18h
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.google.com/maps/place/Cabinet+Dentaire+BioDental+Dr.Fetnaci/@36.889066,7.733466,15z/data=!4m6!3m5!1s0x12f007d70c08afa5:0x4ec6d6bfb6dde012!8m2!3d36.8887816!4d7.7332525!16s%2Fg%2F11kj80k7bh?hl=en-GB&entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-[16px] text-[#0F1F0D] font-normal tracking-[-0.8px] hover:underline"
+                    >
+                      Voir sur Google Maps
+                    </a>
+                  </li>
                 </ul>
               </div>
             </div>
-            {/* services and social section*/}
-            <div className="flex justify-start md:justify-between  md:item-center  w-[310px] ">
+            {/* Desktop: Services and Social */}
+            <div className="hidden md:flex flex-row justify-between items-center gap-8 w-[310px]">
               {/* services */}
               <div className="flex flex-col w-[125px]">
-                <h3 className="text-[22px] text-[#51634B] font-[500]  text-left">
+                <h3 className="text-[22px] text-[#51634B] font-[500] mb-1 text-left">
                   Services
                 </h3>
                 <ul className="flex flex-col gap-1 text-left">
@@ -148,8 +191,8 @@ export const Footer = () => {
               </div>
 
               {/* Social */}
-              <div className="flex flex-col ">
-                <h3 className="text-[22px] text-[#51634B]  font-[500] mb-1 text-left">
+              <div className="flex flex-col">
+                <h3 className="text-[22px] text-[#51634B] font-[500] mb-1 text-left">
                   Social
                 </h3>
                 <div className="flex gap-4 mt-1">
@@ -168,11 +211,66 @@ export const Footer = () => {
                 </div>
               </div>
             </div>
+            {/* Mobile: Contact below Liens and Services */}
+            <div className="flex md:hidden flex-col w-full">
+              <h3 className="text-[22px] text-[#51634B]  font-[500] mb-1 text-left">
+                Contact
+              </h3>
+              <ul className="flex flex-col gap-1 text-left">
+                <li className="text-[16px] text-[#0F1F0D] font-normal tracking-[-0.8px]">
+                  BioDental – Cabinet dentaire à Annaba
+                </li>
+                <li className="text-[16px] text-[#0F1F0D] font-normal tracking-[-0.8px]">
+                  +213 7 87 90 78 32
+                </li>
+                <li>
+                  <a
+                    href="mailto:biodental.dr.fetnaci@gmail.com"
+                    className="text-[16px] text-[#0F1F0D] font-normal tracking-[-0.95px] hover:underline"
+                  >
+                    biodental.dr.fetnaci@gmail.com
+                  </a>
+                </li>
+                <li className="text-[16px] text-[#0F1F0D] font-normal tracking-[-0.8px]">
+                  Horaires : Sam–Jeu, 09h–18h
+                </li>
+                <li>
+                  <a
+                    href="https://www.google.com/maps/place/Cabinet+Dentaire+BioDental+Dr.Fetnaci/@36.889066,7.733466,15z/data=!4m6!3m5!1s0x12f007d70c08afa5:0x4ec6d6bfb6dde012!8m2!3d36.8887816!4d7.7332525!16s%2Fg%2F11kj80k7bh?hl=en-GB&entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-[16px] text-[#0F1F0D] font-normal tracking-[-0.8px] hover:underline"
+                  >
+                    Voir sur Google Maps
+                  </a>
+                </li>
+              </ul>
+            </div>
+            {/* Mobile: Social below Contact */}
+            <div className="flex md:hidden flex-col w-full">
+              <h3 className="text-[22px] text-[#51634B]  font-[500] mb-1 text-left">
+                Social
+              </h3>
+              <div className="flex gap-4 mt-1">
+                {/* Facebook */}
+                <a href="https://web.facebook.com/Biodental.Dr.Fetnaci.S/?_rdc=1&_rdr#" target="_blank" rel="noopener noreferrer" aria-label="Visiter notre page Facebook BioDental">
+                  <FacebookLogo size={40} weight="duotone" color="#222" />
+                </a>
+                {/* Instagram */}
+                <a href="https://www.instagram.com/dr.fetnaci_sofiane?igsh=MW12N3YwZmh5ajBqdA%3D%3D" target="_blank" rel="noopener noreferrer" aria-label="Visiter notre page Instagram BioDental">
+                  <InstagramLogo size={40} weight="duotone" color="#222" />
+                </a>
+                {/* TikTok */}
+                <a href="https://www.tiktok.com/@biodental_dr.fetnaci?_t=8W1xx07WI0E&_r=1" target="_blank" rel="noopener noreferrer" aria-label="Visiter notre page TikTok BioDental">
+                  <TiktokLogo size={40} weight="duotone" color="#222" />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
         {/* Footer Bottom */}
         <div className="flex justify-center items-center ">
-          <div className="flex flex-col md:flex-row justify-between font-[460] items-center mt-6 text-[15px] w-full">
+          <div className="flex flex-col md:flex-row justify-between font-[460] items-center mt-4 md:mt-6 text-[15px] w-full gap-2 md:gap-0">
             <div className="mb-2 md:mb-0 flex flex-wrap items-center gap-1 tracking-[-0.77px] text-[#51634B]">
               <span className="">© BioDental clinic 2024 |</span>
               <a href="#" className=" hover:underline">
