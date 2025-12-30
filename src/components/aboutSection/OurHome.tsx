@@ -23,7 +23,7 @@ const OurHome = () => {
               src="/ourhome/home1.webp"
               alt="Vision cabinet dentaire équipement moderne BioDental Annaba"
               width={480}
-              height={380}
+              height={340}
               className="object-cover w-full h-full"
             />
           </div>
@@ -38,7 +38,7 @@ const OurHome = () => {
               src="/ourhome/home2.webp"
               alt="Mission cabinet dentaire soins patients BioDental Annaba"
               width={480}
-              height={380}
+              height={340}
               className="object-cover w-full h-full"
             />
           </div>

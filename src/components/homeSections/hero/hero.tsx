@@ -4,6 +4,7 @@ import * as React from "react";
 import { Button } from "../../ui/button";
 import { PhonePopup } from "../../testimonialSections/testimonialsherosection";
 import { useRef, useState } from "react";
+import Image from "next/image";
 import "animate.css";
 import { FiPhone, FiMenu, FiX } from "react-icons/fi";
 const PHONE_NUMBERS = ["07 87 90 78 32", "06 59 77 27 37"];
@@ -31,10 +32,14 @@ export const Hero = () => {
               Restaurer votre
             </span>
             <span className="inline-block align-middle ">
-              <img
+              <Image
                 src="/hero1.avif"
                 alt="Sourire restauré patient soins dentaires BioDental Annaba"
+                width={130}
+                height={70}
                 className="inline h-[70px] w-[130px] rounded-full object-cover align-baseline"
+                priority
+                fetchPriority="high"
               />
             </span>
             <span
@@ -50,9 +55,11 @@ export const Hero = () => {
               Sourire
             </span>
             <span className=" absolute top-3 -right-11">
-              <img
+              <Image
                 src="/nedjm.avif"
                 alt=""
+                width={48}
+                height={46}
                 className="inline h-[46px] w-[48px] align-top"
                 aria-hidden="true"
               />
@@ -60,9 +67,11 @@ export const Hero = () => {
           </h1>
           <h2 className="h-[80px] relative flex  text-[70px]  ">
             <span className=" absolute top-0 -left- mr-1 rotate-[-32deg]">
-              <img
+              <Image
                 src="/leaf.avif"
                 alt=""
+                width={48}
+                height={38}
                 className="inline h-[38px] w-[48px] align-top"
                 aria-hidden="true"
               />
@@ -80,19 +89,26 @@ export const Hero = () => {
               Naturel: soins doux,
             </span>
             <span className="inline-block align-middle mx-1">
-              <img
+              <Image
                 src="/hero2.avif"
                 alt="Sourire naturel patient dentisterie BioDental Annaba"
+                width={180}
+                height={70}
                 className="inline h-[70px] w-[180px] rounded-full object-cover align-middle"
+                priority
+                fetchPriority="high"
               />
             </span>
           </h2>
           <h2 className="h-[80px]  text-[70px] ">
             <span className="inline-block align-center mx-1 mt-2">
-              <img
+              <Image
                 src="/hero3.avif"
                 alt="Sourire confiant patient soins dentaires BioDental Annaba"
+                width={150}
+                height={70}
                 className=" h-[70px] w-[150px] rounded-full object-cover align-middle"
+                fetchPriority="high"
               />
             </span>
             <span
@@ -111,9 +127,11 @@ export const Hero = () => {
         </div>
         <div className="flex justify-center  pt-8 w-full">
           <span className="inline-block  align-end mx-1 ml-[50%] rotate-[-17deg]">
-            <img
+            <Image
               src="/arrow.avif"
               alt=""
+              width={74}
+              height={73}
               className="inline h-[73px] w-[74px] align-middle"
               aria-hidden="true"
             />
@@ -159,22 +177,30 @@ export const Hero = () => {
             Un Sourire
           </span>
           <span className="inline-block align-middle mx-1">
-            <img
+            <Image
               src="/hero1.avif"
               alt="Sourire restauré patient soins dentaires BioDental Annaba"
+              width={86}
+              height={46}
               className="inline h-[46px] w-[86px] rounded-full object-cover align-baseline"
               style={{ marginBottom: "-8px" }}
+              priority
+              fetchPriority="high"
             />
           </span>
         </div>
         {/* Naturel (with leaf as accent) */}
         <div className="relative flex items-center justify-center  font-playfair-important  text-center tracking-wider ">
           <span className="inline-block align-middle  ">
-            <img
+            <Image
               src="/hero2.avif"
               alt="Sourire naturel patient dentisterie BioDental Annaba"
+              width={128}
+              height={47}
               className="inline h-[47px] w-[128px] rounded-full object-cover align-baseline  "
               style={{ marginBottom: "-8px" }}
+              priority
+              fetchPriority="high"
             />
           </span>
           <span
@@ -190,9 +216,11 @@ export const Hero = () => {
           </span>
 
           <span className="inline-block align-top ml-1 -mt-3 absolute top-[11px] right-[-9px]">
-            <img
+            <Image
               src="/leaf.avif"
               alt=""
+              width={24}
+              height={24}
               className="inline h-[24px] w-[24px] align-top rotate-[35deg]  "
               aria-hidden="true"
             />
@@ -215,9 +243,11 @@ export const Hero = () => {
         {/* Douceur (with sparkle and smile image as O) */}
         <div className="flex items-center justify-center font-playfair-important  text-center">
           <span className="inline-block align-middle -mr-2">
-            <img
+            <Image
               src="/nedjm.avif"
               alt=""
+              width={25}
+              height={21}
               className="inline h-[21px] w-[25px] align-text-top "
               aria-hidden="true"
             />
@@ -234,20 +264,25 @@ export const Hero = () => {
             Douceur
           </span>
           <span className="inline-block align-middle mx-1">
-            <img
+            <Image
               src="/hero3.avif"
               alt="Sourire confiant patient soins dentaires BioDental Annaba"
+              width={115}
+              height={47}
               className="inline h-[47px] w-[115px] rounded-full object-cover align-baseline shadow-md "
               style={{ marginBottom: "-8px" }}
+              fetchPriority="high"
             />
           </span>
         </div>
         {/* Swirl/arrow accent */}
         <div className="flex justify-end pt-4 w-full">
           <span className="inline-block align-end mx-1  rotate-[-17deg]">
-            <img
+            <Image
               src="/arrow.avif"
               alt=""
+              width={50}
+              height={50}
               className="inline h-[50px] w-[50px] align-middle"
               aria-hidden="true"
             />

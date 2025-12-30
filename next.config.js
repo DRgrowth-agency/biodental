@@ -3,11 +3,12 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
-  // Disable image optimization since we'll use Netlify for image optimization
+  // Enable Next.js image optimization
   images: {
-    unoptimized: true,
+    formats: ['image/avif', 'image/webp'],
+    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
+    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
   },
-  // Disable source maps in production to reduce bundle size
 };
 
 module.exports = nextConfig;

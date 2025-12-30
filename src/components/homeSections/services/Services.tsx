@@ -2,7 +2,7 @@ import * as React from "react";
 import { AiOutlineRight } from "react-icons/ai";
 import { Card, CardContent } from "../../ui/card";
 import { motion } from "framer-motion";
-
+import Image from "next/image";
 import { RiArrowRightSFill as ArrowIcon } from "react-icons/ri";
 
 
@@ -82,9 +82,11 @@ export const Services = () => {
               <br />
               de votre sourire?
             </div>
-            <img
-              src="..//image-6.png"
+            <Image
+              src="/image-6.png"
               alt=""
+              width={57}
+              height={57}
               className="w-[30px] md:w-[57px] h-[30px] md:h-[57px] absolute right-[33px] md:right-[-40px] -top-0 md:top-[-10px] rotate-y-180 object-cover"
               aria-hidden="true"
             />
@@ -98,9 +100,11 @@ export const Services = () => {
               key={service.id}
               className={`w-[350px] md:w-[293px] h-[450px] border-4 border-solid border-[#f7f7f5] ${service.borderRadius} overflow-hidden `}
             >
-              <img
-                src={service.image}
+              <Image
+                src={service.image.replace("..//", "/")}
                 alt={service.alt || `${service.title} service BioDental Annaba`}
+                width={269}
+                height={250}
                 className={`w-[350px] md:w-[269px] h-[250px] mx-2 mt-2 object-cover ${service.imageRadius}`}
               />
               <CardContent className="p-3  px-[12px]">
@@ -146,9 +150,11 @@ export const Services = () => {
               key={service.id}
               className={`w-[350px] md:w-[293px] h-[450px] border-4 border-solid border-[#f7f7f5] ${service.borderRadius} overflow-hidden`}
             >
-              <img
-                src={service.image}
+              <Image
+                src={service.image.replace("..//", "/")}
                 alt={service.alt || `${service.title} service BioDental Annaba`}
+                width={269}
+                height={250}
                 className={`w-[350px] md:w-[269px] h-[250px] mx-2 mt-2 object-cover ${service.imageRadius}`}
               />
               <CardContent className="p-3 px-[12px] ">
