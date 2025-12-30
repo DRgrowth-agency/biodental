@@ -31,6 +31,8 @@ export const About = () => {
             src={"/image-7.webp"}
             alt="Dr Fetnaci Sofian dentiste cabinet BioDental Annaba"
             fill
+            sizes="(max-width: 768px) 100vw, 358px"
+            priority
             className="object-cover rounded-[1000px_1000px_8px_8px]   "
           />
         </div>

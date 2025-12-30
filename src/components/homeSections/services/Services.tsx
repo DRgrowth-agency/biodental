@@ -77,11 +77,11 @@ export const Services = () => {
         {/* Heading */}
         <div className="flex flex-col items-center mb-16 relative">
           <div className="flex flex-col items-center mb-0  md:mb-16 relative w-fit ">
-            <div className="text-[34px] md:text-[50px] tracking-[-0.80px] leading-[40px] font-black text-[#2b3029] font-playfair-important text-center relative px-6">
+            <h2 className="text-[34px] md:text-[50px] tracking-[-0.80px] leading-[40px] font-black text-[#2b3029] font-playfair-important text-center relative px-6">
               Que faisons-nous pour prendre soin
               <br />
               de votre sourire?
-            </div>
+            </h2>
             <Image
               src="/image-6.png"
               alt=""

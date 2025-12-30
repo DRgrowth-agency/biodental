@@ -59,9 +59,9 @@ export const Features = ({ issevice }: { issevice?: boolean }) => {
       className={`w-full py-20 bg-[#f7f7f5] px-[30px] md:px-[30px] lg:px-0 ${issevice ? "pt-32" : ""}`}
     >
       <div className="container mx-auto max-w-6xl ">
-        <h1 className="text-center font-playfair-important  text-[34px] md:text-[50px] font-bold text-[#2b3029] tracking-[-0.80px] leading-[60px] mb-12 font-serif">
+        <h2 className="text-center font-playfair-important  text-[34px] md:text-[50px] font-bold text-[#2b3029] tracking-[-0.80px] leading-[60px] mb-12 font-serif">
           Pourquoi choisir Biodental?
-        </h1>
+        </h2>
 
         <div className="flex flex-col  justify-center gap-8 w-full md:max-w-[480px] mx-auto">
           {featureCards.map((card, ind) => (

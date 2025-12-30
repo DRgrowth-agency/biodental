@@ -100,7 +100,7 @@ export const Hero = () => {
               />
             </span>
           </h2>
-          <h2 className="h-[80px]  text-[70px] ">
+          <h3 className="h-[80px]  text-[70px] ">
             <span className="inline-block align-center mx-1 mt-2">
               <Image
                 src="/hero3.avif"
@@ -123,7 +123,7 @@ export const Hero = () => {
             >
               Priorité au Patient.
             </span>
-          </h2>
+          </h3>
         </div>
         <div className="flex justify-center  pt-8 w-full">
           <span className="inline-block  align-end mx-1 ml-[50%] rotate-[-17deg]">

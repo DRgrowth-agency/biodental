@@ -20,22 +20,24 @@ export default function Page() {
   return (
     <div className="w-full bg-[#F7F7F5]">
       <Nav />
-      <div className="relative">
-        <div className="w-full bg-[#F7F7F5] overflow-hidden">
-          {/* Header Section */}
-          <div className="w-full">
-            <Hero />
+      <main>
+        <div className="relative">
+          <div className="w-full bg-[#F7F7F5] overflow-hidden">
+            {/* Header Section */}
+            <div className="w-full">
+              <Hero />
+            </div>
+            {/* Testimonials Section */}
+            <About />
+            {/* <GallerySectionClient /> */}
+            <Features />
+            <Services />
+            <Reviews />
+            <FAQ />
           </div>
-          {/* Testimonials Section */}
-          <About />
-          {/* <GallerySectionClient /> */}
-          <Features />
-          <Services />
-          <Reviews />
-          <FAQ />
         </div>
-      </div>
-      <CTA />
+        <CTA />
+      </main>
       <Footer />
     </div>
   );

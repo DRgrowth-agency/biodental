@@ -10,8 +10,8 @@ import {
 import { Card, CardContent } from "../../ui/card";
 import { motion, AnimatePresence } from "framer-motion";
 
-const MotionContent = motion(CardContent);
-const MotionAccordionContent = motion(AccordionContent);
+const MotionContent = motion.create(CardContent);
+const MotionAccordionContent = motion.create(AccordionContent);
 
 export const FAQ = () => {
   // FAQ data for mapping
