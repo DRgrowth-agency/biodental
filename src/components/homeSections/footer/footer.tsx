@@ -55,13 +55,13 @@ export const Footer = () => {
             </div>
           </div>
           {/* Footer Navigation Sections */}  
-          <div className="flex flex-col md:flex-row w-full pl-0 md:pl-3 justify-between md:justify-center md:gap-12 gap-6 order-first md:order-last">
+          <div className="flex flex-col md:flex-row w-full pl-0 md:pl-3 justify-between md:justify-center md:gap-[65px] gap-6 order-first md:order-last">
             {/* Mobile: First row - Liens and Services side by side */}
             {/* Desktop: Liens and Contact side by side */}
-            <div className="flex flex-row md:flex-row gap-4 md:gap-6 justify-between w-full md:w-[333px]">
+            <div className="flex flex-row md:flex-row gap-4 md:gap-2 justify-between w-full md:w-[333px]">
               {/* lines */}
               <div className="flex flex-col flex-1 md:flex-none">
-                <h3 className="text-[22px] text-[#51634B] font-[500] mb-1 text-left">
+                <h3 className="text-[22px] text-[#51634B]  font-[500] mb-1 text-left">
                   Liens
                 </h3>
                 <ul className="flex flex-col gap-1 text-left">
@@ -127,7 +127,7 @@ export const Footer = () => {
               </div>
               {/* contact - Desktop: next to liens */}
               <div className="hidden md:flex flex-col">
-                <h3 className="text-[22px] text-[#51634B] font-[500] mb-1 text-left">
+                <h3 className="text-[22px] text-[#51634B]  font-[500] mb-1 text-left">
                   Contact
                 </h3>
                 <ul className="flex flex-col gap-1 text-left">
@@ -162,10 +162,10 @@ export const Footer = () => {
               </div>
             </div>
             {/* Desktop: Services and Social */}
-            <div className="hidden md:flex flex-row justify-between items-center gap-8 w-[310px]">
+            <div className="hidden md:flex flex-row justify-between item-center gap-0 w-[310px]">
               {/* services */}
               <div className="flex flex-col w-[125px]">
-                <h3 className="text-[22px] text-[#51634B] font-[500] mb-1 text-left">
+                <h3 className="text-[22px] text-[#51634B] font-[500]  text-left">
                   Services
                 </h3>
                 <ul className="flex flex-col gap-1 text-left">
@@ -191,8 +191,8 @@ export const Footer = () => {
               </div>
 
               {/* Social */}
-              <div className="flex flex-col">
-                <h3 className="text-[22px] text-[#51634B] font-[500] mb-1 text-left">
+              <div className="flex flex-col ">
+                <h3 className="text-[22px] text-[#51634B]  font-[500] mb-1 text-left">
                   Social
                 </h3>
                 <div className="flex gap-4 mt-1">
