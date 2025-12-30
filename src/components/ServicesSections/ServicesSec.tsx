@@ -18,7 +18,7 @@ const ServicesSec = () => {
       <div className=" rounded-xl border-[3px] border-[#F7F7F5] max-w-[95vw] w-full flex flex-col md:flex-row p-[32px] md:p-8  gap-8 shadow-md">
         <div className="flex-1 flex justify-center items-center  min-w-full md:min-w-[320px] ">
           <Image
-            src="/services/services1.png"
+            src="/image-3.webp"
             alt="Préservation dentaire traitement soins dents naturelles BioDental Annaba"
             width={600}
             height={400}
@@ -60,7 +60,7 @@ const ServicesSec = () => {
         </div>
         <div className="flex-1 flex justify-center items-center min-w-full md:min-w-[320px]">
           <Image
-            src="/services/services2.png"
+            src="/image-4.webp"
             alt="Implants dentaires remplacement dents manquantes BioDental Annaba"
             width={600}
             height={400}
@@ -72,7 +72,7 @@ const ServicesSec = () => {
       <div className=" rounded-xl  mt-16 border-[3px] border-[#F7F7F5] max-w-[95vw] w-full flex flex-col md:flex-row p-[32px]  md:p-8 gap-8 shadow-md h-fit min-h-[360px]">
         <div className="flex-1 flex justify-center items-center min-w-full md:min-w-[320px]">
           <Image
-            src="/services/services3.png"
+            src="/image-5.webp"
             alt="Prothèses dentaires fixes couronnes bridges BioDental Annaba"
             width={600}
             height={400}
@@ -117,7 +117,7 @@ const ServicesSec = () => {
         </div>
         <div className="flex-1 flex justify-center items-center min-w-full md:min-w-[320px]">
           <Image
-            src="/services/services4.png"
+            src="/image.webp"
             alt="Chirurgie orale pathologie soins spécialisés BioDental Annaba"
             width={600}
             height={400}
@@ -129,7 +129,7 @@ const ServicesSec = () => {
       <div className=" rounded-xl  mt-16 border-[3px] border-[#F7F7F5] max-w-[95vw] w-full flex flex-col md:flex-row p-[32px]  md:p-8 gap-13 shadow-md">
         <div className="flex-1 flex justify-center items-center min-w-full md:min-w-[320px]">
           <Image
-            src="/services/services5.png"
+            src="/image-1.webp"
             alt="Orthodontie ODF alignement dents mâchoires BioDental Annaba"
             width={600}
             height={400}
@@ -168,7 +168,7 @@ const ServicesSec = () => {
         </div>
         <div className="flex-1 flex justify-center items-center min-w-full md:min-w-[320px]">
           <Image
-            src="/services/services6.png"
+            src="/image-2.webp"
             alt="Dentisterie esthétique blanchiment facettes sourire BioDental Annaba"
             width={600}
             height={400}
