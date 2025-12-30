@@ -15,7 +15,13 @@ const ServicesSec = () => {
           Nos services complets ..
         </h2>
       </motion.div>
-      <div className=" rounded-xl border-[3px] border-[#F7F7F5] max-w-[95vw] w-full flex flex-col md:flex-row p-[32px] md:p-8  gap-8 shadow-md">
+      <motion.div
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, type: "spring" }}
+        viewport={{ once: true, amount: 0.2 }}
+        className=" rounded-xl border-[3px] border-[#F7F7F5] max-w-[95vw] w-full flex flex-col md:flex-row p-[32px] md:p-8  gap-8 shadow-md"
+      >
         <div className="flex-1 flex justify-center items-center  min-w-full md:min-w-[320px] ">
           <Image
             src="/image-3.webp"
@@ -24,6 +30,7 @@ const ServicesSec = () => {
             height={400}
             className="rounded-3xl object-cover w-full h-[250px] md:h-[370px] max-w-full"
             style={{ objectPosition: "center" }}
+            loading="lazy"
           />
         </div>
         <div className="flex-1  px-0 md:px-8  ">
@@ -40,8 +47,14 @@ const ServicesSec = () => {
             des extractions inutiles.
           </p>
         </div>
-      </div>
-      <div className=" rounded-xl mt-16 border-[3px] border-[#F7F7F5] max-w-[95vw] w-full flex flex-col md:flex-row p-[32px]  md:p-8 gap-8 shadow-md">
+      </motion.div>
+      <motion.div
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, type: "spring" }}
+        viewport={{ once: true, amount: 0.2 }}
+        className=" rounded-xl mt-16 border-[3px] border-[#F7F7F5] max-w-[95vw] w-full flex flex-col md:flex-row p-[32px]  md:p-8 gap-8 shadow-md"
+      >
         <div className="flex-1  px-0 md:px-8  ">
           <h3 className="text-2xl md:text-3xl font-semibold text-[#243520] mb-5">
             2. Implants dentaires
@@ -66,10 +79,17 @@ const ServicesSec = () => {
             height={400}
             className="rounded-3xl object-cover w-full h-[250px] md:h-[370px] max-w-full"
             style={{ objectPosition: "center" }}
+            loading="lazy"
           />
         </div>
-      </div>
-      <div className=" rounded-xl  mt-16 border-[3px] border-[#F7F7F5] max-w-[95vw] w-full flex flex-col md:flex-row p-[32px]  md:p-8 gap-8 shadow-md h-fit min-h-[360px]">
+      </motion.div>
+      <motion.div
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, type: "spring" }}
+        viewport={{ once: true, amount: 0.2 }}
+        className=" rounded-xl  mt-16 border-[3px] border-[#F7F7F5] max-w-[95vw] w-full flex flex-col md:flex-row p-[32px]  md:p-8 gap-8 shadow-md h-fit min-h-[360px]"
+      >
         <div className="flex-1 flex justify-center items-center min-w-full md:min-w-[320px]">
           <Image
             src="/image-5.webp"
@@ -78,6 +98,7 @@ const ServicesSec = () => {
             height={400}
             className="rounded-3xl object-cover w-full h-[250px] md:h-[370px] max-w-full"
             style={{ objectPosition: "center" }}
+            loading="lazy"
           />
         </div>
         <div className="flex-1 ">
@@ -96,8 +117,14 @@ const ServicesSec = () => {
             votre dentition naturelle, offrant une solution durable et homogène.
           </p>
         </div>
-      </div>
-      <div className=" rounded-xl mt-16 border-[3px] border-[#F7F7F5] max-w-[95vw] w-full flex flex-col md:flex-row p-[32px] md:p-8 gap-8 shadow-md">
+      </motion.div>
+      <motion.div
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, type: "spring" }}
+        viewport={{ once: true, amount: 0.2 }}
+        className=" rounded-xl mt-16 border-[3px] border-[#F7F7F5] max-w-[95vw] w-full flex flex-col md:flex-row p-[32px] md:p-8 gap-8 shadow-md"
+      >
         <div className="flex-1  px-2 md:pl-0 md:pr-0  ">
           <h3 className="text-2xl md:text-3xl font-semibold text-[#243520] mb-5 ">
             4.Chirurgie orale et pathologie
@@ -123,10 +150,17 @@ const ServicesSec = () => {
             height={400}
             className="rounded-3xl object-cover w-full h-[250px] md:h-[370px] max-w-full"
             style={{ objectPosition: "center" }}
+            loading="lazy"
           />
         </div>
-      </div>
-      <div className=" rounded-xl  mt-16 border-[3px] border-[#F7F7F5] max-w-[95vw] w-full flex flex-col md:flex-row p-[32px]  md:p-8 gap-13 shadow-md">
+      </motion.div>
+      <motion.div
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, type: "spring" }}
+        viewport={{ once: true, amount: 0.2 }}
+        className=" rounded-xl  mt-16 border-[3px] border-[#F7F7F5] max-w-[95vw] w-full flex flex-col md:flex-row p-[32px]  md:p-8 gap-13 shadow-md"
+      >
         <div className="flex-1 flex justify-center items-center min-w-full md:min-w-[320px]">
           <Image
             src="/image-1.webp"
@@ -135,6 +169,7 @@ const ServicesSec = () => {
             height={400}
             className="rounded-3xl object-cover w-full h-[250px] md:h-[370px] max-w-full"
             style={{ objectPosition: "center" }}
+            loading="lazy"
           />
         </div>
         <div className="flex-1 ">
@@ -153,8 +188,14 @@ const ServicesSec = () => {
             personnalisés sont des éléments clés de notre approche orthodontique
           </p>
         </div>
-      </div>
-      <div className=" rounded-xl mt-16 border-[3px] border-[#F7F7F5] max-w-[95vw] w-full flex flex-col md:flex-row p-[32px]  md:p-8 gap-8 shadow-md">
+      </motion.div>
+      <motion.div
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, type: "spring" }}
+        viewport={{ once: true, amount: 0.2 }}
+        className=" rounded-xl mt-16 border-[3px] border-[#F7F7F5] max-w-[95vw] w-full flex flex-col md:flex-row p-[32px]  md:p-8 gap-8 shadow-md"
+      >
         <div className="flex-1   px-0 md:px-8  ">
           <h3 className="text-2xl md:text-3xl font-semibold text-[#243520] mb-5">
             6. Denisterie esthétique
@@ -174,9 +215,10 @@ const ServicesSec = () => {
             height={400}
             className="rounded-3xl object-cover w-full h-[250px] md:h-[370px] max-w-full"
             style={{ objectPosition: "center" }}
+            loading="lazy"
           />
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 }
