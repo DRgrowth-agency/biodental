@@ -11,7 +11,7 @@ const CabinetImages = () => {
             src="/cabinet/cabinet1.webp"
             alt="Cabinet dentaire équipement moderne traitement BioDental Annaba"
             width={600}
-            height={270}
+            height={420}
             className="object-cover w-full h-full"
             priority
           />
@@ -21,9 +21,8 @@ const CabinetImages = () => {
             src="/cabinet/cabinet2.webp"
             alt="Salle d'attente confortable cabinet dentaire BioDental Annaba"
             width={600}
-            height={270}
+            height={420}
             className="object-cover w-full h-full"
-            priority
           />
         </div>
       </div>
@@ -33,9 +32,8 @@ const CabinetImages = () => {
             src="/cabinet/cabinet3.webp"
             alt="Cabinet dentaire salle traitement équipement BioDental Annaba"
             width={600}
-            height={270}
+            height={630}
             className="object-cover w-full h-full"
-            priority
           />
         </div>
         <div className="w-full md:col-span-2 h-[300px] rounded-[32px] overflow-hidden bg-[#F7F7F5]/10 shadow-md">
@@ -43,9 +41,8 @@ const CabinetImages = () => {
             src="/cabinet/cabinet4.webp"
             alt="Cabinet dentaire équipement soins dentaires BioDental Annaba"
             width={600}
-            height={270}
+            height={300}
             className="object-cover w-full h-full"
-            priority
           />
         </div>
         <div className="w-full md:col-start-2 md:row-start-2 h-[300px] rounded-[32px] overflow-hidden bg-[#F7F7F5]/10 shadow-md">
@@ -53,9 +50,8 @@ const CabinetImages = () => {
             src="/cabinet/cabinet5.webp"
             alt="Salle traitement cabinet dentaire équipement BioDental Annaba"
             width={600}
-            height={270}
+            height={300}
             className="object-cover w-full h-full"
-            priority
           />
         </div>
         <div className="w-full md:col-start-3 md:row-start-2 h-[300px] rounded-[32px] overflow-hidden bg-[#F7F7F5]/10 shadow-md">
@@ -63,9 +59,8 @@ const CabinetImages = () => {
             src="/cabinet/cabinet6.webp"
             alt="Cabinet dentaire fauteuil équipement moderne BioDental Annaba"
             width={600}
-            height={270}
+            height={300}
             className="object-cover w-full h-full"
-            priority
           />
         </div>
       </div>
@@ -76,9 +71,8 @@ const CabinetImages = () => {
             src="/cabinet/cabinet6.webp"
             alt="Cabinet dentaire fauteuil équipement moderne BioDental Annaba"
             width={600}
-            height={270}
+            height={420}
             className="object-cover w-full h-full"
-            priority
           />
         </div>
         <div className="w-full md:col-start-3 h-[420px] rounded-[32px] overflow-hidden bg-[#F7F7F5]/10 shadow-md">
@@ -86,9 +80,8 @@ const CabinetImages = () => {
             src="/cabinet/cabinet7.webp"
             alt="Salle d'attente réception cabinet dentaire BioDental Annaba"
             width={600}
-            height={270}
+            height={420}
             className="object-cover w-full h-full"
-            priority
           />
         </div>
       </div>
@@ -98,9 +91,8 @@ const CabinetImages = () => {
             src="/cabinet/cabinet8.webp"
             alt="Cabinet dentaire équipement technologie soins BioDental Annaba"
             width={600}
-            height={270}
+            height={630}
             className="object-cover w-full h-full"
-            priority
           />
         </div>
         <div className="w-full md:col-span-2 h-[300px] rounded-[32px] overflow-hidden bg-[#F7F7F5]/10 shadow-md">
@@ -108,9 +100,8 @@ const CabinetImages = () => {
             src="/cabinet/cabinet9.webp"
             alt="Cabinet dentaire salle soins équipement BioDental Annaba"
             width={600}
-            height={270}
+            height={300}
             className="object-cover w-full h-full"
-            priority
           />
         </div>
         <div className="w-full md:col-start-2 md:row-start-2 h-[300px] rounded-[32px] overflow-hidden bg-[#F7F7F5]/10 shadow-md">
@@ -118,9 +109,8 @@ const CabinetImages = () => {
             src="/cabinet/cabinet4.webp"
             alt="Cabinet dentaire fauteuil équipement traitement BioDental Annaba"
             width={600}
-            height={270}
+            height={300}
             className="object-cover w-full h-full"
-            priority
           />
         </div>
         <div className="w-full md:col-start-3 md:row-start-2 h-[300px] rounded-[32px] overflow-hidden bg-[#F7F7F5]/10 shadow-md">
@@ -128,9 +118,8 @@ const CabinetImages = () => {
             src="/cabinet/cabinet5.webp"
             alt="Cabinet dentaire équipement professionnel BioDental Annaba"
             width={600}
-            height={270}
+            height={300}
             className="object-cover w-full h-full"
-            priority
           />
         </div>
       </div>

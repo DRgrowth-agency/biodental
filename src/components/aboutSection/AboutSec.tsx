@@ -2,6 +2,7 @@
 import React from "react";
 import { Card, CardContent } from "../../components/ui/card";
 import { motion } from "framer-motion";
+import Image from "next/image";
 import "../../styles/scrollbar.css";
 
 export const AboutSec = () => {
@@ -26,9 +27,12 @@ export const AboutSec = () => {
        viewport={{ once: true, amount: 0.2 }}
       >
         <div className="relative w-full md:w-[358px] h-[440px] rounded-[1000px_1000px_8px_8px] overflow-hidden order-2 md:order-1">
-          <img
-            src="..//image-7.webp"
+          <Image
+            src="/image-7.webp"
             alt="Dr Fetnaci Sofian dentiste cabinet BioDental Annaba"
+            width={358}
+            height={440}
+            priority
             className="w-full h-full object-cover rounded-[1000px_1000px_8px_8px]"
           />
         </div>
