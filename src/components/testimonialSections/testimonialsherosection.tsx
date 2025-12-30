@@ -105,7 +105,7 @@ export default function TestimonialHeroSection() {
         <div className="relative flex-1 flex items-center justify-center w-full h-full min-h-[350px] md:w-[350px]   xl:min-h-[420px]">
           {/* Top image (child) */}
           <motion.img
-            src="/TESI-PAGE/t-hero-1.png"
+            src="/TESI-PAGE/t-hero-1.webp"
             alt="Sourire patient témoignage résultat soins dentaires BioDental Annaba"
             width={200}
             height={236}
@@ -119,7 +119,7 @@ export default function TestimonialHeroSection() {
           />
           {/* Bottom left image (teeth) */}
           <motion.img
-            src="/TESI-PAGE/t-hero-2.png"
+            src="/TESI-PAGE/t-hero-2.webp"
             alt="Sourire patient transformation soins dentaires BioDental Annaba"
             width={300}
             height={140}
@@ -133,7 +133,7 @@ export default function TestimonialHeroSection() {
           />
           {/* Bottom right image (braces) */}
           <motion.img
-            src="/TESI-PAGE/t-hero-3.png"
+            src="/TESI-PAGE/t-hero-3.webp"
             alt="Sourire patient résultat traitement dentaire BioDental Annaba"
             width={260}
             height={140}

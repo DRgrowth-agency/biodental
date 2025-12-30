@@ -7,32 +7,32 @@ import "./CustomBeforeAfterSlider.scss";
 
 const beforeAfterPairs = [
   {
-    before: "/before-after/before 1.png",
-    after: "/before-after/after 1.png",
+    before: "/before-after/before 1.webp",
+    after: "/before-after/after 1.webp",
   },
   {
-    before: "/before-after/before 2.png",
-    after: "/before-after/after 2.png",
+    before: "/before-after/before 2.webp",
+    after: "/before-after/after 2.webp",
   },
   {
-    before: "/before-after/before 3.png",
-    after: "/before-after/after 3.png",
+    before: "/before-after/before 3.webp",
+    after: "/before-after/after 3.webp",
   },
   {
-    before: "/before-after/before 4.png",
-    after: "/before-after/after 4.png",
+    before: "/before-after/before 4.webp",
+    after: "/before-after/after 4.webp",
   },
   {
-    before: "/before-after/before 5.png",
-    after: "/before-after/after 5.png",
+    before: "/before-after/before 5.webp",
+    after: "/before-after/after 5.webp",
   },
   {
-    before: "/before-after/before 6.jpeg",
-    after: "/before-after/after 6.jpeg",
+    before: "/before-after/before 6.webp",
+    after: "/before-after/after 6.webp",
   },
   {
-    before: "/before-after/before 7.jpeg",
-    after: "/before-after/after 7.jpeg",
+    before: "/before-after/before 7.webp",
+    after: "/before-after/after 7.webp",
   },
 ];
 
