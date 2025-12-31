@@ -57,7 +57,16 @@ export const metadata: Metadata = {
     template: "%s | BioDental"
   },
   description:
-    "BioDental est un cabinet dentaire à Annaba spécialisé en dentisterie naturelle, soins doux, implants et orthodontie. Prenez rendez-vous dès aujourd’hui.",
+    "BioDental est un cabinet dentaire à Annaba spécialisé en dentisterie naturelle, soins doux, implants et orthodontie. Prenez rendez-vous dès aujourd'hui.",
+  icons: {
+    icon: [
+      { url: "/logo-tab.png", type: "image/png" }
+    ],
+    apple: [
+      { url: "/logo-tab.png", type: "image/png" }
+    ],
+    shortcut: "/logo-tab.png"
+  },
   openGraph: {
     type: "website",
     locale: "fr_DZ",
