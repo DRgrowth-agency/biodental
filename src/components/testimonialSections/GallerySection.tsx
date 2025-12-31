@@ -1,5 +1,4 @@
 "use client";
-import React from "react";
 import BeforeAfterSlider from "./CustomBeforeAfterSlider";
 import "react-before-after-slider-component/dist/build.css";
 import { motion } from "framer-motion";

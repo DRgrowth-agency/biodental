@@ -1,12 +1,11 @@
 "use client";
-import * as React from "react";
 import { useRef, useState } from "react";
 import { Button } from "../../components/ui/button";
 
 import Image from "next/image";
 import { motion } from "framer-motion";
 
-import { FiPhone, FiMenu, FiX } from "react-icons/fi";
+import { FiPhone } from "react-icons/fi";
 const PHONE_NUMBERS = ["07 87 90 78 32", "06 59 77 27 37"];
 
 export function PhonePopup({ open }: { open: boolean }) {

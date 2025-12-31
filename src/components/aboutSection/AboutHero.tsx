@@ -3,7 +3,7 @@ import React, { useRef, useState } from "react";
 import { Button } from "../../components/ui/button";
 import "../../styles/heroAnimation.css";
 import "animate.css";
-import { FiPhone, FiMenu, FiX } from "react-icons/fi";
+import { FiPhone } from "react-icons/fi";
 const PHONE_NUMBERS = [
   "07 87 90 78 32",
   "06 59 77 27 37",

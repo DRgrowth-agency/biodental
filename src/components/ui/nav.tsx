@@ -2,7 +2,6 @@
 import React, { useState } from "react";
 import { Card, CardContent } from "../../components/ui/card";
 import { FiPhone, FiMenu, FiX } from "react-icons/fi";
-import { IoMenu } from "react-icons/io5";
 import "@/app/globals.css";
 const navItems = [
   { label: "Accueil", path: "/" },

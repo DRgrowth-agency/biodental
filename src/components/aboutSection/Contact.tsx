@@ -1,4 +1,3 @@
-import React from "react";
 import { IoMdStopwatch, IoMdMail } from "react-icons/io";
 import { MdLocalPhone as PhoneIcon } from "react-icons/md";
 

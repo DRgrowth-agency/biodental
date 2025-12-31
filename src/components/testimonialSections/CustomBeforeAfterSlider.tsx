@@ -314,7 +314,7 @@ export default function BeforeAfterSlider({
           loading="lazy"
         />
       </div>
-      {Boolean(imagesWidth) && (
+      {imagesWidth !== null && (
         <>
           <div
             className="before-after-slider__second-photo-container"

@@ -3,9 +3,7 @@ import { Nav } from "../../components/ui/nav";
 import { Reviews } from "@/components/homeSections/reviews/page";
 
 import {
-  galleryImages,
   TestimonialHeroSection,
-  TestimonialsSection,
   GallerySection,
   MoreImagesSection,
 } from "../../components/testimonialSections";

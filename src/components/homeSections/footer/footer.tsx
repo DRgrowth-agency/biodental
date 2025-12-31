@@ -285,9 +285,8 @@ export const Footer = () => {
               </a>
             </div>
             <div className="flex items-center gap-2 font-normal text-right underline">
-              <a href="#" className="text-[#2266ff] hover:underline">
-                Made <span className="text-black  no-underline">by</span> Ayoub
-                SADAOUI
+              <a href="https://www.instagram.com/drgrowth.agency/" target="_blank" rel="noopener noreferrer" className="text-[#2266ff] hover:underline">
+                Made <span className="text-black  no-underline">by</span> DrGrowth 
               </a>
             </div>
           </div>

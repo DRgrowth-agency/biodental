@@ -1,5 +1,4 @@
 'use client'
-import React, { useRef, useEffect, useState } from "react";
 import { Card, CardContent } from "../../ui/card";
 import { motion } from "framer-motion";
 import Image from "next/image";
