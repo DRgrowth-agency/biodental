@@ -12,6 +12,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* JSON-LD Schema for SEO */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -42,6 +43,19 @@ export default function RootLayout({
                 "https://www.tiktok.com/@biodental_dr.fetnaci"
               ]
             })
+          }}
+        />
+
+        {/* Google Analytics */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-ECV5G2CN9T"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-ECV5G2CN9T');
+            `
           }}
         />
       </head>
